@@ -8,6 +8,7 @@ namespace IntroSQL
 {
     public class Department
     {
+        public Department() { }
         public string Name { get; set; }
         public int DepartmentID { get; set; }
     }
